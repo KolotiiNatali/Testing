@@ -1,0 +1,21 @@
+Test Design Technique: Cause/Effect
+
+Precondition:
+
+Main page https://qauto2.forstudy.space/ is opened.
+Login: guest Password: welcome2qauto entered.
+Signed in account page.
+
+Steps:										Expected Result
+
+1. Click the button "Add car" on the main account page.			1. Opened window "Add a car"
+
+2. Choose the Brand car on the field Brand. (Porsche)			2. Brand field is surrounded by a blue frame. Brand is valid.
+
+3. Choose the model car on the field Model. (Cayenne)			3. Model field is surrounded by a blue frame. Model is valid.
+
+4. Field Mileage stay empty.						4. Mileage cost required
+
+5. Enter 0 in Mileage field.						5. Mileage field is surrounded by a blue frame. Mileage is valid.
+
+6. Click the button "Add".						6.Window "Add a car" closed. In Accout page appeared a Car.

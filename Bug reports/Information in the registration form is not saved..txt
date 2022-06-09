@@ -1,0 +1,40 @@
+Environment:19.12.21
+Windows 10 Pro
+20H2(версия)
+10.?05.?2021
+19042.1348 (сборка)
+Google Ghrome браузер
+Версия 96.0.4664.110 (Официальная сборка), (64 бит)
+
+Description:
+When LMB is clicked outside the user registration form, the form closes and the data is not saved.
+
+
+Steps:
+
+ 
+1.Open the site https://qauto.forstudy.space/
+
+Login: guest
+
+Password: welcome2qauto
+
+2. Click on the main page SIGN UP.
+ 
+3. Fill in the fields (fill in all the fields, the validity fields are not required)
+.
+4. Click LMB outside the user registration form on the site page.
+
+5. Click on the main page SIGN UP.
+
+ 
+Expected Result:
+
+After opening the registration form
+the data entered in step 3, after step 5, the data was saved in the registration form. 
+
+
+Actual result:
+
+
+After opening the registration form again, the data disappeared.

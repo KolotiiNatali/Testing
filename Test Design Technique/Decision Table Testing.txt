@@ -1,0 +1,21 @@
+Test Design Technique: Decision Table Testing
+
+Precondition:
+
+main page https://qauto2.forstudy.space/ is opened.
+Login: guest Password: welcome2qauto entered.
+opened registration form of new user on site https://qauto2.forstudy.space/
+
+Steps:
+
+1. Enter 11 Latin characters with contain at least one integer, one capital, and one small letter in the Password field. (Catintheb0x)
+2. Enter any other 11 Latin characters with contain at least one integer, one capital, and one small letter in the Re-enter password field. (D0ginthebox)
+3. Clean the field Re-enter password.
+4. Enter the same password like in the first step in the Re-enter password field. (Catintheb0x)
+
+Expected result:
+
+1. The Password field is surrounded by a blue frame.
+2. The Password field is circled in red with message "Passwords do not match".
+3. The Re-enter password field is empty.
+4. The Re-enter passwordfield is surrounded by a blue frame.

@@ -1,0 +1,21 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+
+Description:
+In documentation wrong status code.
+
+Steps:
+
+1. Ensure the user doesn't exist.
+2. Sign Up a new user.
+3. Add a new car for the user.
+4. Expected result:
+
+The request for the created machine returned 201.
+
+Actual result:
+
+In documentation says status should be code is 200.
+
+ 

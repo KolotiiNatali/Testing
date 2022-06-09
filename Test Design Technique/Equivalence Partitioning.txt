@@ -1,0 +1,20 @@
+Test Design Technique: Equivalence Partitioning
+
+Precondition:
+
+main page https://qauto2.forstudy.space/ is opened
+Login: guest Password: welcome2qauto entered
+opened registration form of new user on site https://qauto2.forstudy.space/
+
+Steps:
+
+1. LMB on the Password field.
+2. LMC in any field of the Registration window, except for the Password field
+3. LMB on the Password field. (Catintheb0x)
+4. Enter 11 Latin characters with contain at least one integer, one capital, and one small letter in the Password field.
+
+Expected result:
+1. Ñursor on the Password field.
+2. The Password field is circled in red with message "Password required".
+3. Ñursor on the Password field. The Password field is circled in red with message "Password required".
+4. The Password field is surrounded by a blue frame. No error message.

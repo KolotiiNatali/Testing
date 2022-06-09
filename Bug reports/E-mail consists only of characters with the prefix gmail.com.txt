@@ -1,0 +1,25 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+Chrome : Version 97.0.4692.99 (Official Build) (64-bit)
+App version: ng-version="11.0.8"
+
+Description:
+The request to create a new user with an email in which the name consists of only characters is successful.
+
+Steps:
+
+1. Ensure the user doesn't exist.
+2. Create a new user use E-mail consists only of characters with the prefix gmail.com
+3. Sign In 
+4. Delete the user.
+5. Expected result:
+
+Second request returned: "Status code is 400" with message "Email is incorrect".
+Third request returned: "Status code is 400"  with message  "Wrong email or password"
+
+Actual result:
+
+All request is pass.
+
+#comment: This email address is not valid for gmail.com.

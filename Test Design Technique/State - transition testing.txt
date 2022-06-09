@@ -1,0 +1,24 @@
+Test Design Technique: State - transition testing.
+
+Precondition:
+
+main page https://qauto2.forstudy.space/ is opened.
+Login: guest Password: welcome2qauto entered.
+Signed in to Email on the computer.
+
+Steps:
+
+1. Click the button "Sign In" on the main page site.
+2. Click the button "Forgot password" on the login window.
+3. Enter Email in the window Restore access.
+4. Click the button "Send" in the window Restore access.
+5. Check the email.
+6. Open the letter from Qauto@mg.ithillel.ua
+7. Click to the link on the letter.
+8. Check the email again.
+9. Open the letter from Qauto@mg.ithillel.ua
+10. Click the button "Sign In" on the main page site "Hillel auto".
+11. Enter email in the Email field.
+12. Enter new password from the letter.
+13. Click the button "Login".
+

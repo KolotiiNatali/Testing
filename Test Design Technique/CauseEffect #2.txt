@@ -1,0 +1,29 @@
+Test Design Technique: Cause/Effect
+
+Precondition:
+
+main page https://qauto2.forstudy.space/ is opened.
+Login: guest Password: welcome2qauto entered.
+opened registration form of new user on site https://qauto2.forstudy.space/
+
+Steps:
+1. Fill in the Name field in Latin with a capital letter and without any numbers and symbols.
+2. Fill in the Last Name field in Latin with a capital letter and without any numbers and symbols.
+3. Enter Email field in Latin.
+4. Enter 11 Latin characters with contain at least one integer, one capital, and one small letter in the Password field.
+5. Enter the same password like in the previous step in the Re-enter password field.
+6. Press the button "Register".
+7. Open the form of registration again.
+8. Enter ALL FIELDS with test date again
+9. Press the button "Register".	
+							
+Expected Result:
+1. The Name field is surrounded by a blue frame. Name is valid.
+2. The Last Name field is surrounded by a blue frame. Last Name is valid.
+3. The Email field is surrounded by a blue frame. Email is valid
+4. The Password field is surrounded by a blue frame.
+5. The Re-enter passwordfield is surrounded by a blue frame.
+6. Registration completed successfully. Personal account page opened.
+7. Opened the form of registration.
+8. ALL FIELDS are surrounded by a blue frame.
+9. Red notice appeared with text "User already exists."

@@ -1,0 +1,40 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+Chrome : Version 97.0.4692.99 (Official Build) (64-bit)
+App version: ng-version="11.0.8"
+
+Description: 
+
+The request doesn't find a car to delete by ID after creating car on the site.
+ 
+Precondition:
+Site https://qauto.forstudy.space/
+
+Login: guest
+
+Password: welcome2qauto
+
+Сreated user:
+
+email:Pelmen87@gmail.com
+password:Qwerty12345
+
+Created a Car into site https://qauto.forstudy.space/
+Id: "6705",
+brand: "Audi",
+model: "TT",
+mileage: 121,
+
+Steps:
+
+1. Sign In user 
+2. Get car for the user 
+3. Delete a car by ID 
+4. Expected result:
+
+All request is pass
+
+Actual result:
+
+Third request returned: "Status code is 404" with massage "Not found"

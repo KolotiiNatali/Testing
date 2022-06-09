@@ -1,0 +1,23 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+Chrome : Version 97.0.4692.99 (Official Build) (64-bit)
+App version: ng-version="11.0.8"
+
+Description:
+
+The request to add a new car for the user takes too much time.
+
+Steps:
+
+1. Ensure the user doesn't exist.
+2. Sign Up a new user.
+3. Add a new car for the user.
+4. Delete the user. 
+5. Expected result:
+
+All request is pass
+
+Actual result:
+
+Third request returned "Status code 504" with message: "Request timed out".

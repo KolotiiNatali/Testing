@@ -1,0 +1,19 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+
+Description:
+The "Name" field goes out of Edit form frames.
+
+Steps:
+
+1. Sign in
+2. Click the button "Profile".
+3. Click the button "Edit Profile".
+4. Expected result:
+
+All fields in form frames
+
+Actual result:
+
+The "Name" field goes out of Edit form frames.

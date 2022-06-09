@@ -1,0 +1,21 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+Apache Jmeter version 5.4.3
+
+Description:
+
+The request to get a car after user authentication through Jmeter issues - the user is not authenticated.
+
+Steps:
+
+1. Create a new user.
+2. Sign in
+3. Create a car.
+4. Expected result:
+
+All request is pass. Car is created.
+
+Actual result:
+
+Third request returned status "Error" with message: "Not authenticated".

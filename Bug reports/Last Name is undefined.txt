@@ -1,0 +1,20 @@
+Environment:
+Выпуск Windows 10 Pro
+Версия 1607
+Description:
+Last Name is undefined after change Last Name.
+
+Steps:
+
+1. Sign in
+2. Click the button "Profile".
+3. Click the button "Edit Profile".
+4. Change Last Name.
+5. Click the button Save.
+6. Expected result:
+
+Last Name is changed on the main page of profile.
+
+Actual result:
+
+Last Name is undefined.
