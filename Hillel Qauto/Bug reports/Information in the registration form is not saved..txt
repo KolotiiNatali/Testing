@@ -1,10 +1,7 @@
 Environment:19.12.21
 Windows 10 Pro
-20H2(версия)
-10.?05.?2021
-19042.1348 (сборка)
-Google Ghrome браузер
-Версия 96.0.4664.110 (Официальная сборка), (64 бит)
+Google Ghrome 
+Версия 96.0.4664.110, (64 бит)
 
 Description:
 When LMB is clicked outside the user registration form, the form closes and the data is not saved.

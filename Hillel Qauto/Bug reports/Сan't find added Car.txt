@@ -1,6 +1,5 @@
 Environment:
-Выпуск Windows 10 Pro
-Версия 1607
+Windows 10 Pro
 Chrome : Version 97.0.4692.99 (Official Build) (64-bit)
 App version: ng-version="11.0.8"
 

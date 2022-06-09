@@ -1,6 +1,6 @@
 Environment:
-Выпуск Windows 10 Pro
-Версия 1607
+Windows 10 Pro
+
 
 Description:
 

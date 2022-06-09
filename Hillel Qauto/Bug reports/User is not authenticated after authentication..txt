@@ -1,6 +1,5 @@
 Environment:
-Выпуск Windows 10 Pro
-Версия 1607
+Windows 10 Pro
 Apache Jmeter version 5.4.3
 
 Description:
