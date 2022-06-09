@@ -1,4 +1,7 @@
 # Testing
-My project for testing to site [Hillel QAuto ](https://qauto.forstudy.space/) .
-My Jira of this project https://jira.ithillel.com/browse/KHQM011221-635 (look Task).
+My project for testing to site Hillel QAuto. (Login: guest Password: welcome2qauto ).
 Here you will see ways to test both UI, API and automation with JAVA.
+Test cases of Telegram.
+Knowledge check (questions and answers)
+Test cases of wireless headphones.
+Tests of requirements.
